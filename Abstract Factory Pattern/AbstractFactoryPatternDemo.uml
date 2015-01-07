@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\FactoryCreator</OriginalElement>
+  <nodes>
+    <node x="214.0" y="79.0">\ConcreteProductFactoryB</node>
+    <node x="0.0" y="459.0">\FactoryCreator</node>
+    <node x="0.0" y="79.0">\ConcreteProductFactoryA</node>
+    <node x="113.0" y="0.0">\AbstractProductFactory</node>
+    <node x="176.0" y="232.0">\ConcreteProductB1</node>
+    <node x="94.0" y="306.0">\AbstractProductA</node>
+    <node x="0.0" y="232.0">\ConcreteProductB2</node>
+    <node x="176.0" y="385.0">\ConcreteProductA1</node>
+    <node x="0.0" y="385.0">\ConcreteProductA2</node>
+    <node x="94.0" y="153.0">\AbstractProductB</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\ConcreteProductB2" target="\AbstractProductB">
+      <point x="0.0" y="-14.5" />
+      <point x="78.0" y="207.0" />
+      <point x="130.0" y="207.0" />
+      <point x="-36.0" y="14.5" />
+    </edge>
+    <edge source="\ConcreteProductFactoryB" target="\AbstractProductFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="311.0" y="54.0" />
+      <point x="249.5" y="54.0" />
+      <point x="45.5" y="14.5" />
+    </edge>
+    <edge source="\ConcreteProductA1" target="\AbstractProductA">
+      <point x="0.0" y="-14.5" />
+      <point x="254.0" y="360.0" />
+      <point x="202.0" y="360.0" />
+      <point x="36.0" y="14.5" />
+    </edge>
+    <edge source="\ConcreteProductA2" target="\AbstractProductA">
+      <point x="0.0" y="-14.5" />
+      <point x="78.0" y="360.0" />
+      <point x="130.0" y="360.0" />
+      <point x="-36.0" y="14.5" />
+    </edge>
+    <edge source="\ConcreteProductB1" target="\AbstractProductB">
+      <point x="0.0" y="-14.5" />
+      <point x="254.0" y="207.0" />
+      <point x="202.0" y="207.0" />
+      <point x="36.0" y="14.5" />
+    </edge>
+    <edge source="\ConcreteProductFactoryA" target="\AbstractProductFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="97.0" y="54.0" />
+      <point x="158.5" y="54.0" />
+      <point x="-45.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="204.0" y="243.99999999999997" />
+  <SelectedNodes />
+  <Categories />
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
